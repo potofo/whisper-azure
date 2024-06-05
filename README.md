@@ -33,8 +33,8 @@ Please make sure to replace the placeholder values in the `.env` file with your 
 ## Requirements
 Make sure to add the following Python packages to your requirements.txt file:
 ```
-openai==0.28.1
-python-dotenv==1.0.0
+openai >= 1.0.0
+python-dotenv == 1.0.1
 ```
 
 ## Troubleshoot
@@ -69,7 +69,13 @@ If the REST API throws an exception and you get the following error, please refe
 - potofo
 
 ## Revision
-- 2023/10/08 01-00 potofo: Initial Creation.
+- 2023/10/08 01-00 @potofo: Initial Creation.
+- 2024/06/05 01-01 @cnkang: Initial Creation.
+  Updated openai package version in requirements.txt to openai >=1.0.
+  Adjusted code to align with changes in the OpenAI API, ensuring compatibility with the new version.
+  Tested all functionalities to ensure that existing features operate smoothly with the upgraded library.
+- 2024/06/05 01-01 @potofo: Rename requirement.txt to requirements.txt
+
 
 ## License
 This code is licensed under the MIT License.
